@@ -26,3 +26,6 @@ hs_err_pid*
 /bin
 /build
 **/.sass-cache
+/.classpath
+/.project
+/.settings/
