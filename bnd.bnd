@@ -1,0 +1,4 @@
+Bundle-Name: liferay-clay-tags
+Bundle-SymbolicName: com.chberndt.liferay.clay.tags
+Bundle-Version: 1.0.0
+Export-Package: com.chberndt.liferay.clay.tags.constants
