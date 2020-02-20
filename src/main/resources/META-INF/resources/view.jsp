@@ -208,4 +208,61 @@
 	<dt>none</dt>
 	<dd>Should be &quot;title&quot; otherwise <code>ClayImageCard.soy</code> will fail.</dd>
 </dl>
+<hr/>
+
+
+<h1>clay:label</h1>
+<p>
+	<code>
+		&lt;clay:label label="The Label"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:label label="The Label"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>label</dt>
+	<dd>TODO</dd>
+</dl>
+<hr/>
+
+
+<h1>clay:link</h1>
+<p>
+	<code>
+		&lt;clay:link href="https://www.liferay.com" label="www.liferay.com"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:link href="https://www.liferay.com" label="www.liferay.com"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>href</dt>
+	<dd>TODO</dd>
+</dl>
+<hr/>
+
+
+<h1>clay:management-toolbar</h1>
+<p>
+	<code>
+		&lt;clay:management-toolbar/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:management-toolbar/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+	<dd>TODO</dd>
+</dl>
 
