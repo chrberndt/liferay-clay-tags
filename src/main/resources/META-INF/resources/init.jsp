@@ -10,6 +10,7 @@
 
 <%@page import="com.liferay.frontend.taglib.clay.servlet.taglib.util.DropdownItem"%>
 <%@page import="com.liferay.frontend.taglib.clay.servlet.taglib.util.NavigationItem"%>
+<%@page import="com.liferay.frontend.taglib.clay.servlet.taglib.util.SelectOption"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 

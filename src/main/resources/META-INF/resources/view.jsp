@@ -354,4 +354,32 @@
 	<dt>name</dt>
 	<dd>TODO</dd>
 </dl>
+<hr/>
 
+
+<h1>clay:select</h1>
+<p>
+	<code>
+		&lt;clay:select name="aSelect" label="Please select" options="&lt;%= selectOptions &gt;"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<%
+		List<SelectOption> selectOptions = new ArrayList<SelectOption>(); 
+		for (int i = 0; i < 8; i++) {
+			selectOptions.add(new SelectOption("Option " + i, String.valueOf(i)));
+		}
+	%>
+	<clay:select name="aSelect" label="Please select" options="<%= selectOptions %>"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>label</dt>
+	<dd>TODO</dd>
+	<dt>name</dt>
+	<dd>TODO</dd>
+	<dt>options</dt>
+	<dd>TODO</dd>
+</dl>
