@@ -9,6 +9,7 @@
 <%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui"%>
 
 <%@page import="com.liferay.frontend.taglib.clay.servlet.taglib.util.DropdownItem"%>
+<%@page import="com.liferay.frontend.taglib.clay.servlet.taglib.util.NavigationItem"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 

@@ -265,4 +265,93 @@
 	<dt>none</dt>
 	<dd>TODO</dd>
 </dl>
+<hr/>
+
+<%-- unused in 7.2.1-ga1
+<h1>clay:multi-select</h1>
+<p>
+	<code>
+		&lt;clay:multi-select dataSource="" helpText=""/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:multi-select dataSource="" helpText=""/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>dataSource</dt>
+	<dd>helpText</dd>
+</dl>
+--%>
+
+
+<h1>clay:navigation-bar</h1>
+<p>
+	<code>
+		&lt;clay:navigation-bar navigationItems="&lt;%= navigationItems %&gt;"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<%
+	NavigationItem navigationItem1 = new NavigationItem(); 
+	navigationItem1.setLabel("Navigation Item 1"); 
+	navigationItem1.setHref("#");
+	
+	NavigationItem navigationItem2 = new NavigationItem(); 
+	navigationItem2.setLabel("Navigation Item 2"); 
+	navigationItem2.setHref("#");
+	
+	List<NavigationItem> navigationItems = new ArrayList<NavigationItem>(); 
+	navigationItems.add(navigationItem1);
+	navigationItems.add(navigationItem2);
+%>
+<p>
+	<clay:navigation-bar navigationItems="<%= navigationItems %>"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>navigationItems</dt>
+	<dd>TODO</dd>
+</dl>
+<hr/>
+
+
+<h1>clay:progressbar</h1>
+<p>
+	<code>
+		&lt;clay:progressbar/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:progressbar/>
+</p>
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+</dl>
+<hr/>
+
+
+<h1>clay:radio</h1>
+<p>
+	<code>
+		&lt;clay:radio name="isRequired" label="yes"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:radio name="isRequired" label="yes"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>label</dt>
+	<dd>TODO</dd>
+	<dt>name</dt>
+	<dd>TODO</dd>
+</dl>
 
