@@ -80,4 +80,33 @@
 <clay:dropdown-menu dropdownItems="<%= dropdownItems %>"/>
 
 
+<h1>clay:file-card</h1>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+	<dd>Should be &quot;title&quot; since otherwise <code>ClayFileCard.soy</code> will fail.</dd>
+</dl>
+<clay:file-card title="File-Card Title"/>
+
+
+<h1>clay:horizontal-card</h1>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+	<dd>Should be &quot;title&quot; since otherwise <code>ClayFileCard.soy</code> will fail.</dd>
+</dl>
+<clay:horizontal-card title="Horizontal-Card Title"/>
+
+
+<h1>clay:icon</h1>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>symbol</dt>
+	<dd>The name of the symbol to be rendered. For a list of available symbols see <a href="https://v2.clayui.com/docs/components/icons.html" target="_blank">https://v2.clayui.com/docs/components/icons.html</a>
+</dl>
+
+<clay:icon symbol="heart"/>
 
