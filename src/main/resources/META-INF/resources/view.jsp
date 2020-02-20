@@ -189,5 +189,23 @@
 	<dt>symbol</dt>
 	<dd>The name of the symbol to be rendered. For a list of available symbols see <a href="https://v2.clayui.com/docs/components/icons.html" target="_blank">https://v2.clayui.com/docs/components/icons.html</a>
 </dl>
+<hr/>
 
+
+<h1>clay:image-card</h1>
+<p>
+	<code>
+		&lt;clay:image-card title="Image-Card Title"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:image-card title="Image-Card Title"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+	<dd>Should be &quot;title&quot; otherwise <code>ClayImageCard.soy</code> will fail.</dd>
+</dl>
 
