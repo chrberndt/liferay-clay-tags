@@ -383,3 +383,19 @@
 	<dt>options</dt>
 	<dd>TODO</dd>
 </dl>
+
+<h1>clay:sticker</h1>
+<p>
+	<code>
+		&lt;clay:sticker label="PDF" shape="circle" style="danger"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:sticker label="PDF" shape="circle" style="danger" /> 
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>none</dt>
+</dl>
