@@ -384,6 +384,7 @@
 	<dd>TODO</dd>
 </dl>
 
+
 <h1>clay:sticker</h1>
 <p>
 	<code>
@@ -398,4 +399,24 @@
 <h2>required attributes</h2>
 <dl>
 	<dt>none</dt>
+</dl>
+
+
+<h1>clay:stripe</h1>
+<p>
+	<code>
+		&lt;clay:stripe title="The Title" message="The message"/&gt;
+	</code>
+</p>
+<p>renders as</p>
+<p>
+	<clay:stripe title="The Title" message="The message"/>
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>title</dt>
+	<dd>TODO</dd>
+	<dt>message</dt>
+	<dd>TODO</dd>
 </dl>
