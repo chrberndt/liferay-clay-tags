@@ -27,7 +27,7 @@ apply plugin: "net.saliman.properties"
 apply plugin: "com.liferay.workspace"
 ```
 
-Configure `gradle-local.properties` as follows: 
+Configure `gradle-local.properties` as follows:
 
 ```properties
 liferay.workspace.bundle.url = https://releases-cdn.liferay.com/portal/7.2.1-ga2/liferay-ce-portal-tomcat-7.2.1-ga2-20191111141448326.tar.gz
