@@ -457,3 +457,20 @@
 	<dt>message</dt>
 	<dd>TODO</dd>
 </dl>
+
+<h1>clay:table</h1>
+<p>
+	<code>
+		&lt;clay:table/&gt;
+	</code>
+</p>
+
+<p>renders as</p>
+<p>
+	<clay:table />
+</p>
+
+<h2>required attributes</h2>
+<dl>
+	<dt>None</dt>
+</dl>
